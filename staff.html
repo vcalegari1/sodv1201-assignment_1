@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staff List</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <header>
+    <h1>VINICIUS CALEGARI</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="markconverter.html">Mark Converter</a></li>
+        <li><a href="staff.html">Staff</a></li> 
+        <li><a href="weather.html">Weather</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Staff</h2>
+
+    <div class="filters">
+      <label for="name-filter">Filter by Name:</label>
+      <input type="text" id="name-filter">
+
+      <label for="salary-filter">Filter by Salary (Greater than):</label>
+      <input type="number" id="salary-filter">
+    </div>
+
+    <table id="staff-table"> 
+      <thead>
+        <tr>
+          <th></th>Name</th> 
+          <th>Salary</th> 
+          <th>Position</th> 
+          <th>Office</th> 
+          <th>Extn</th> 
+          <th>Start Date</th> 
+        </tr>
+      </thead>
+      <tbody id="staff-data">
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 - Vinicius Calegari</p>
+  </footer>
+
+  <script src="staff.js"></script>
+</body>
+</html>

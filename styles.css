@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #profile-pic {
+    max-width: 250px;
+    border-radius: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #e0e0e0;
+    cursor: pointer; 
+  }  
+
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px; 
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #validation-message {
+    color: red;
+    margin-bottom: 10px; 
+  }
+
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    display: block;
+    margin-bottom: 5px; 
+  }
+  
+  .filters input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
