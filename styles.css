@@ -11,15 +11,32 @@ body {
   }
   
   nav ul {
-    list-style-type: none;
+    list-style: none; 
     padding: 0;
     margin: 0;
+    background-color: #f0f0f0; 
+    display: flex; 
+    justify-content: center; 
   }
   
   nav li {
-    display: inline;
-    margin-right: 20px;
+    margin: 5px;
   }
+  
+  nav a {
+    display: block; 
+    padding: 15px 20px; 
+    text-decoration: none;
+    background-color: dimgrey; 
+    color: white;
+    border-radius: 15px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  nav a:hover {
+    background-color: #2980b9; 
+  }
+  
   
   main {
     margin-top: 20px;
